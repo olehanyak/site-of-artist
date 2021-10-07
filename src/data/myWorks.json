@@ -1,0 +1,26 @@
+[
+  {
+    "img": "../assets/images/paint1.jpg",
+    "alt": "Art-1",
+    "name": "Art-1",
+    "button": "Глянути"
+  },
+  {
+    "img": "../assets/images/paint2.jpg",
+    "alt": "Art-2",
+    "name": "Art-2",
+    "button": "Глянути"
+  },
+  {
+    "img": "../assets/images/paint3.jpg",
+    "alt": "Art-3",
+    "name": "Art-3",
+    "button": "Глянути"
+  },
+  {
+    "img": "../assets/images/paint4.jpg",
+    "alt": "Art-4",
+    "name": "Art-4",
+    "button": "Глянути"
+  }
+]

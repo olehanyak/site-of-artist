@@ -8,7 +8,7 @@ import Artist from "../components/Artist"
 const ArtistPage = () => (
   <Layout>
     <Seo title="Page artist" />
-    <Artist />
+    {/* <Artist /> */}
   </Layout>
 )
 

@@ -5,23 +5,17 @@ import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "./Header"
-import { GlobalStyles } from "./Styles/GlobalStyles"
+import { GlobalStyles } from "../styles/GlobalStyles"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
 
   return (
     <>
       <GlobalStyles />
+      <Header />
       <main>{children}</main>
+      <Footer />
     </>
   )
 }
